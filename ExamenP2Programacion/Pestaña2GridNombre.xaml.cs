@@ -6,4 +6,5 @@ public partial class Pestaña2GridNombre : ContentPage
 	{
 		InitializeComponent();
 	}
+
 }
