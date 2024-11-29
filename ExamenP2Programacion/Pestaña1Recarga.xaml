@@ -7,17 +7,16 @@
     <StackLayout Padding="20">
         <Entry x:Name="nombre"
                Placeholder="Ingrese su nombre"
-               Margin="0,10"
-               AutomationId="darwinlopez_nombre"/>
+               Margin="0,10"/>
 
         <Entry x:Name="telefono"
                Placeholder="Ingrese su teléfono"
                Margin="0,10"
-               AutomationId="darwinlopez_telefono"/>
+               />
 
         <Button Text="Realizar recarga"
                 Clicked="Button_Clicked"
-                AutomationId="darwinlopez_recargaBtn"/>
+                />
 
         <Label x:Name="ultimaRecargaLabel"
                Text="Última recarga"
