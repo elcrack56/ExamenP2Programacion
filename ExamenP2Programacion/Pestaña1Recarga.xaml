@@ -5,11 +5,11 @@
              Title="Recarga">
 
     <StackLayout Padding="20">
-        <Entry x:Name="nombre"
+        <Entry x:Name="nombre1"
                Placeholder="Ingrese su nombre"
                Margin="0,10"/>
 
-        <Entry x:Name="telefono"
+        <Entry x:Name="telefono1"
                Placeholder="Ingrese su teléfono"
                Margin="0,10"
                />

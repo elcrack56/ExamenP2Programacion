@@ -16,8 +16,8 @@ namespace ExamenP2Programacion
 
             private async void Button_Clicked(object sender, EventArgs e)
         {
-            string nombre = nombre.Text;
-            string telefono = telefono.Text;
+            string nombre = nombre1.Text;
+            string telefono = telefono1.Text;
 
             if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(telefono))
             {
