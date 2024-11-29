@@ -179,6 +179,13 @@
             </VisualStateGroupList>
         </Setter>
     </Style>
+    
+    <Style x:Key="RedTextStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="Red" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="FontSize" Value="14" />
+    </Style>
 
 
     <Style TargetType="Span">
